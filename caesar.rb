@@ -1,13 +1,6 @@
 
 def generate_alphabet
-  alphabets = [('A'..'Z'), ('a'..'z')]
-  alphas = []
-  alphabets.each do |cases|
-   cases.each do |char|
-      alphas  <<  char
-    end
-  end
-  return alphas
+  return ('A'..'Z').to_a + ('a'..'z').to_a
 end
 
 
