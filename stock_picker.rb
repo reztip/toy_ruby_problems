@@ -1,3 +1,4 @@
+#!/home/rez/Odin/learnruby/proj1
 def stock_picker(prices)
 	buy_point = 0
 	sell_point = 0
